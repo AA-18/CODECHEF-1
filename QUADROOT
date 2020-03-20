@@ -1,0 +1,12 @@
+// https://www.codechef.com/problems/QUADROOT
+
+//SOLUTION SOLVED IN PYTHON 3.6 LANGUAGE
+
+a=int(raw_input())
+b=int(raw_input())
+c=int(raw_input())
+from math import sqrt
+x1=(-b+sqrt(b**2-4*a*c))/(2*a)
+x2=(-b-sqrt(b**2-4*a*c))/(2*a)
+print(x1)
+print(x2)
