@@ -6,13 +6,14 @@
 int main(void) {
 	// your code goes here
 	int T,N,y;
+	y = - pow(10,9)
 	scanf("%d",&T);
 	int p[100000];
 	while(T--)
 	{
 	    int i=0;
 	    scanf("%d",&N);
-	    int largest=0;
+	    int largest=y;
 	    while(N--)
 	    {
 	        scanf("%d",&p[i]);
